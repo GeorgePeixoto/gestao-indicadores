@@ -1,0 +1,25 @@
+{
+  "name": "gestao-indicadores-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "API do projeto Gestão e Indicadores (UniFAP - PI)",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --runInBand --passWithNoTests",
+    "test:coverage": "jest --runInBand --passWithNoTests --coverage"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}

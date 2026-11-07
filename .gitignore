@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente e segredos (use os arquivos .env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build e cobertura
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Uploads de CSV feitos durante o desenvolvimento
+uploads/
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
